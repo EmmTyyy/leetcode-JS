@@ -1,0 +1,16 @@
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */  
+ let num = [-4,-1,0,3,10]
+var sortedSquares = (nums) => {
+        let arr = [];
+        for(let i = 0 ;i < nums.length;i++){
+            arr.push(nums[i]*nums[i])
+        }
+return arr.sort((a,b)=>{
+    return a-b;
+})
+    };
+
+
